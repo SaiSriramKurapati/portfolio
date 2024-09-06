@@ -46,7 +46,7 @@ const Contact = () => {
                                     color="#37e4db"
                                     className="phone-icon pr-3"
                                 /> +1 (689) 248 1182 </h2>
-                <div className='pt-10 '><a href="https://drive.google.com/file/d/1JlJyEtGehe-5FqyOpVORaXEtCEQ4s6JH/view?usp=sharing" target="_blank" rel="noreferrer" className='font-bold border-2 border-teal-500 px-4 py-2'>Resume</a></div>
+                <div className='pt-10 '><a href="https://drive.google.com/file/d/11AWVjBybeft_mcUMbtk5fvSijbRQDCoO/view?usp=sharing" target="_blank" rel="noreferrer" className='font-bold border-2 border-teal-500 px-4 py-2'>Resume</a></div>
                 
             </div>
 
