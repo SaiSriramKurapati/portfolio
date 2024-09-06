@@ -28,23 +28,23 @@ const Projects = () => {
                     <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
                         <header>
                             <div className="project-name text-black px-5 pt-8 text-lg font-bold">
-                                Table Booking System
+                                AI powered ChatBot
                             </div>
-                            <a href='https://github.com/SaiSriramKurapati/Table-Booking-System'  style={{fontSize:"30px"}}>
+                            <a href='https://github.com/SaiSriramKurapati/Rio'  style={{fontSize:"30px"}}>
                                 <FontAwesomeIcon
                                     icon={faGithub}
                                     color="#4d4d4e"
                                     className="anchor-icon"
                                 />
                             </a>
-                            <div className="high-idea text-black px-5 "> Developed a responsive restaurant website with a React-based booking system, hosted on GitHub Pages.</div>
+                            <div className="high-idea text-black px-5 "> A friendly and efficient chatbot that makes managing conversations a breeze—sending, editing, and deleting messages with ease—wrapped in a sleek design that feels just right.</div>
                         </header>
                         <footer className=''>
                             <div className='text-black text-xs opacity-60 flex px-5 pt-9'>
                                 <ul className='flex space-x-4'>
-                                    <li>React.js</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
+                                    <li>React</li>
+                                    <li>FastAPI</li>
+                                    <li>Postgres</li>
                                 </ul>
                             </div>
                         </footer>
@@ -52,7 +52,7 @@ const Projects = () => {
                     <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
                         <header>
                             <div className="project-name text-black px-5 pt-8 text-lg font-bold">
-                                Resume Classification and Ranking
+                                NLP Based Resume Ranking
                             </div>
                             <a href="https://github.com/SaiSriramKurapati/NLP-Based-Resume-Classification-and-Ranking" style={{fontSize:"30px"}}>
                                 <FontAwesomeIcon
@@ -77,7 +77,7 @@ const Projects = () => {
                     <div className='bg-white w-96 h-60 rounded-2xl relative transition-transform duration-1000 ease-in-out hover:translate-x-4 hover:-translate-y-4  '>  {/*onClick={() => handleProjectClick(1)}*/}
                         <header>
                             <div className="project-name text-black px-5 pt-8 text-lg font-bold">
-                                Advanced TAGE Branch Prediction
+                                Branch Prediction
                             </div>
                             <a href="https://github.com/SaiSriramKurapati/ACA-Branch-Prediction" style={{fontSize:"30px"}}>
                                 <FontAwesomeIcon
@@ -102,7 +102,7 @@ const Projects = () => {
             </div>
 
             <div className=' more flex justify-center items-center py-28'> {/*nedd to modify padding when more projects are added*/}
-                <a href="https://github.com/SaiSriramKurapati" className='border-2 border-teal-500 px-4 py-2'>See More</a>
+                <a href="https://github.com/SaiSriramKurapati?tab=repositories" className='border-2 border-teal-500 px-4 py-2'>See More</a>
             </div>
         </section>
     
