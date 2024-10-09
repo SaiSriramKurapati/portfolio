@@ -21,7 +21,7 @@ function Hero() {
   const hiArray = ['H', 'i,'];
   const imArray = ['I', ' ', 'a', 'm'];
   const nameArray = ['r', 'i', 'r', 'a', 'm'];
-  const jobArray = ['F', 'u', 'l','l', 'S', 't','a','c','k'];
+  const jobArray = ['S','o','f','t','w','a','r','e'];
   
 
   // const textRef = useRef();

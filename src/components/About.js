@@ -78,7 +78,7 @@ function About() {
                         About Me
                     </h2>
                     <p align='justify' className='pb-5 pt-6'>
-                      I'm a passionate <span className='text-teal-500'>FullStack Developer</span> building user-friendly and interactive Websites. I hold a Master's degree in Computer Science from the University of Central Florida.
+                      I'm a passionate <span className='text-teal-500'>Software Developer</span> building user-friendly and interactive Websites. I hold a Master's degree in Computer Science from the University of Central Florida.
                     </p>
                     <p align='justify' className='pb-5'>
                       As a developer, my expertise spans various technologies for <span className='text-teal-500'>coding</span> and <span className='text-teal-500'>problem-solving</span>. I have dedicated myself to mastering various programming languages and frameworks, constantly exploring new advancements in the field, and staying up-to-date with the latest trends.
