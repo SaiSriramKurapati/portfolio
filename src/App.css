@@ -298,4 +298,51 @@ h1 {
     margin: 1.5em 0 2em 0;
   }
 
+/* Experience Blocks Styling */
+.experience-block {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-block:hover {
+  box-shadow: 0 10px 30px rgba(55, 228, 219, 0.2);
+}
+
+.experience-block .experience-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.experience-block .experience-content li {
+  margin-bottom: 0.5rem;
+}
+
+.experience-content div {
+  white-space: pre-line;
+}
+
+.experience-content div {
+  padding-left: 1rem;
+}
+
+.experience-content div > p {
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure bullet points display correctly */
+.text-gray-300.space-y-2 {
+  list-style-position: outside;
+}
+
+.text-gray-300.space-y-2 li::before {
+  content: "•";
+  color: #37e4db;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
  
