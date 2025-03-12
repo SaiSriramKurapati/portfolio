@@ -1,3 +1,8 @@
+import titanLogo from '../assets/titan_logo.png';
+import marlabsLogo from '../assets/marlabs_logo.png';
+import agwiseLogo from '../assets/agwise_logo.png';
+import ucfLogo from '../assets/ucf_logo.jpeg';
+
 let timelineElements = [
   {
     id: 1,
@@ -11,7 +16,7 @@ let timelineElements = [
       date: "March 1, 2024 - Present",
       icon: "work",
       techStack: ["React", "Next.js", "GraphQL", "AWS", "TypeScript", "Jest", "Cypress"],
-      logo: "https://agwise.com/wp-content/uploads/2023/12/agwise-logo-white.png"
+      logo: agwiseLogo
   },
   {
     id: 2,
@@ -24,7 +29,7 @@ let timelineElements = [
       date: "July 1, 2023 - March 1, 2024",
       icon: "work",
       techStack: ["React", "Material UI", "Redux", "REST APIs"],
-      logo: "https://www.ucf.edu/brand/files/2016/07/UCF-Tab-Signature-lockup_horizontal.png"
+      logo: ucfLogo
   },
   {
     id: 3,
@@ -38,7 +43,7 @@ let timelineElements = [
     date: "January 1, 2021 - August 1, 2022",
     icon: "work",
     techStack: ["React", "AngularJS", "Storybook", "Jenkins", "AWS"],
-    logo: "https://www.titancompany.in/sites/all/themes/titan2020/assets/images/titan-logo.png"
+    logo: titanLogo
   },
     {
       id: 4,
@@ -50,7 +55,7 @@ let timelineElements = [
         date: "January 1, 2020 - June 1, 2020",
         icon: "work",
         techStack: ["React", "WordPress", "JavaScript"],
-        logo: "https://www.marlabs.com/wp-content/themes/marlabs/images/marlabs-logo.svg"
+        logo: marlabsLogo
     },
   ];
   

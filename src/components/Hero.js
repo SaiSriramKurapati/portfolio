@@ -246,17 +246,15 @@ const Hero = () => {
               transition={{ delay: 2.2, duration: 0.8 }}
             >
               <div className="flex items-center gap-4">
-                <motion.div 
-                  className="w-12 h-12 bg-gradient-to-br from-teal-400 to-teal-600 rounded-xl flex items-center justify-center overflow-hidden"
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.8 }}
+                <div 
+                  className="w-12 h-12 bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl flex items-center justify-center"
                 >
                   <img 
                     src={vaaataLogo} 
                     alt="Vaaata Logo" 
-                    className="w-8 h-8 object-contain"
+                    className="w-full h-full border-transparent rounded-2xl"
                   />
-                </motion.div>
+                </div>
                 <h3 className="text-2xl font-bold">Vaaata</h3>
               </div>
               
