@@ -172,7 +172,21 @@ const Hero = () => {
               Get in Touch
             </a>
             <a 
-              href="#projects" 
+              href="#project"
+              onClick={(e) => {
+                e.preventDefault();
+                const projectSection = document.getElementById('project');
+                if (projectSection) {
+                  const offset = 80; // Offset for fixed header
+                  const elementPosition = projectSection.getBoundingClientRect().top;
+                  const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                  });
+                }
+              }}
               className="border-2 border-teal-500 text-teal-500 px-8 py-3 rounded-full font-semibold hover:bg-teal-500 hover:text-black transition-colors"
             >
               View Projects
@@ -266,8 +280,8 @@ const Hero = () => {
                 <div className="flex items-center gap-3 bg-gray-800/30 backdrop-blur-sm p-4 rounded-xl">
                   <FaUsers className="text-teal-400 text-xl" />
                   <div>
-                    <h4 className="font-semibold">Smart Groups</h4>
-                    <p className="text-sm text-gray-400">Manage multiple groups</p>
+                    <h4 className="font-semibold">Receipt Processing</h4>
+                    <p className="text-sm text-gray-400">Smart item extraction</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 bg-gray-800/30 backdrop-blur-sm p-4 rounded-xl">

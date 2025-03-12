@@ -64,7 +64,7 @@ const Header = () => {
           whileTap={{ scale: 0.95 }}
         >
           <FaCode className="text-3xl" />
-          <span className="hidden sm:block">Portfolio</span>
+          <span className="hidden sm:block">Sai Sriram</span>
         </motion.a>
 
         {/* Desktop Navigation */}
