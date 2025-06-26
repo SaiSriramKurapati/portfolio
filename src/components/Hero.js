@@ -135,8 +135,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.p variants={itemVariants} className="text-lg text-gray-400 max-w-xl">
-            Crafting pixel-perfect, scalable web applications with a focus on performance and user experience. 
-            AWS certified developer passionate about building solutions that make a difference.
+           I'm a product driven frontend specialist with a passion for building to the customer not the stack like many does.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex gap-6 mt-8">
