@@ -1,5 +1,4 @@
 import titanLogo from '../assets/titan_logo.png';
-import marlabsLogo from '../assets/marlabs_logo.png';
 import agwiseLogo from '../assets/agwise_logo.png';
 import ucfLogo from '../assets/ucf_logo.jpeg';
 
@@ -30,9 +29,9 @@ let timelineElements = [
     title: "University of Central Florida",
     location: "Research Assistant | Web Developer",
     description: `<ul>
-<li>Contributed to the frontend of a grant-funded forensic research portal serving 300+ academic institutions.</li>
-<li>Built a performant search interface in React using TanStack Table, SWR, and server-side pagination to query over 1M research records with advanced filters and debounced search.</li>
-<li>Collaborated on UI architecture, implemented modular components, and added 30+ unit and integration tests, achieving 85% coverage across critical data workflows.</li>
+<li>Designed and developed the ILRC’s public-facing web portal enabling streamlined access to forensic tools, datasets, and educational resources for 300+ partner institutions.</li>
+<li>Architected the <strong>Data Portal</strong> interface, implementing server-side pagination, faceted filters, and fuzzy search across 1M+ records; optimized query response time by 50% via SWR caching and debounced input handling</li>
+<li>Elevated SEO, Lighthouse scores, and WCAG 2.1 accessibility compliance—achieving 98+ scores for key pages.</li>
 </ul>`,
     date: "August 2023 - March 2024",
     icon: "work",
@@ -44,30 +43,19 @@ let timelineElements = [
     title: "Titan Company Ltd.",
     location: "Software Engineer - Frontend",
     description: `<ul>
-<li>Migrated a 40k+ LOC AngularJS app to React, reducing tech debt and improving load speed by 60%.</li>
-<li>Developed mobile-first UI revamp using React + Tailwind, increasing mobile session time by 22% and reducing bounce rate by 15%.</li>
-<li>Built an internal campaign tracker integrating Google Ads + Facebook Pixel, improving cross-channel ad analysis by 15%.</li>
-<li>Fixed 50+ SEO and a11y issues using tools like Lighthouse and Axe, increasing WCAG 2.1 AA compliance and driving 40% lift in organic reach.</li>
-<li>Added Cypress end-to-end tests for 3 core flows, reducing regression errors by 30%.</li>
+  <li>Built web-based companion interfaces for smartwatch users to manage health data, sync devices, and view activity trends—used by 200K+ desktop users.</li>
+  <li>Developed modular UI components for reuse across multiple watch models, accelerating new product rollouts by 30%.</li>
+  <li>Improved SEO, Lighthouse scores, and accessibility (WCAG AA) for public-facing pages, boosting organic reach and discoverability.</li>
+  <li>Worked with firmware and backend teams to visualize sensor data (heart rate, sleep, steps) using D3 and custom SVG dashboards.</li>
+  <li>Optimized performance via code splitting, lazy loading, and asset compression—reducing page load times by 40%.</li>
+  <li>Established a robust testing pipeline using Jest, React Testing Library, and Playwright, covering unit, integration, and end-to-end tests; improved coverage to 80% and reduced production bugs across major releases.</li>
+
 </ul>`,
-    date: "August 2021 - August 2022",
+    date: "January 2021 - August 2022",
     icon: "work",
     techStack: ["React", "AngularJS", "Storybook", "Jenkins", "AWS", "Tailwind", "Cypress", "Lighthouse"],
     logo: titanLogo
-  },
-  {
-    id: 4,
-    title: "Marlabs",
-    location: "SDE Intern",
-    description: `<ul>
-<li>Migrated company website from WordPress to a custom-built React app, achieving Lighthouse score of 95+ across performance, SEO, and accessibility.</li>
-<li>Integrated form tracking and conversion analytics using Google Tag Manager, enabling marketing attribution and improving lead tracking by 25%.</li>
-</ul>`,
-    date: "May 2019 - July 2019",
-    icon: "work",
-    techStack: ["React", "WordPress", "JavaScript", "Google Tag Manager"],
-    logo: marlabsLogo
-  },
+  }
 ];
 
 export default timelineElements;
