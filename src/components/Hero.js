@@ -123,9 +123,7 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  'Frontend Developer',
-                  'AWS Solutions Architect',
-                  'Performance Enthusiast'
+                  'Software Engineer'
                 ],
                 autoStart: true,
                 loop: true,
@@ -133,10 +131,10 @@ const Hero = () => {
               }}
             />
           </motion.div>
-
+{/* 
           <motion.p variants={itemVariants} className="text-lg text-gray-400 max-w-xl">
-           I'm a product driven frontend specialist with a passion for building to the customer not the stack like many does.
-          </motion.p>
+          
+          </motion.p> */}
 
           <motion.div variants={itemVariants} className="flex gap-6 mt-8">
             <a 
