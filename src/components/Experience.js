@@ -112,6 +112,9 @@ const Experience = () => {
                               {element.title}
                             </h3>
                             <h4 className="text-lg text-gray-300 mt-1">{element.location}</h4>
+                            {element.position && (
+                              <p className="text-base text-gray-400 mt-1">{element.position}</p>
+                            )}
                           </div>
                           <div className="flex flex-col items-end gap-2">
                             <span className="px-4 py-1 rounded-full bg-gray-800/50 text-teal-400 text-sm backdrop-blur-sm border border-gray-700/30">
@@ -142,6 +145,38 @@ const Experience = () => {
               );
             })}
           </div>
+
+          {/* Skills Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
+            className="mt-20"
+          >
+            <h3 className='text-3xl font-bold text-white mb-8 text-center border-b-[4px] border-teal-500 pb-2 inline-block'>
+              SKILLS
+            </h3>
+            <div className="bg-gray-900/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-800/50 shadow-xl">
+              <div className="space-y-6">
+                <div>
+                  <h4 className="text-xl font-semibold text-teal-400 mb-4">Languages:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {["TypeScript", "JavaScript", "Python", "SQL", "HTML", "CSS"].map((lang, idx) => (
+                      <TechBadge key={idx} tech={lang} />
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-xl font-semibold text-teal-400 mb-4">Technologies:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {["React", "NextJS(App Router)", "React Native", "Angular", "Redux", "Zustand", "React Query", "TailwindCSS", "Jest", "Cypress", "PlayWright", "RTL", "ShadcnUI", "DataDog", "Vercel", "AWS", "Express JS", "FASTAPI", "Cursor", "Claude Code", "PostgreSQL", "Vite", "Webpack"].map((tech, idx) => (
+                      <TechBadge key={idx} tech={tech} />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>
