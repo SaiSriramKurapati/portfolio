@@ -88,8 +88,8 @@ const Contact = () => {
               <div className="space-y-4">
                 <ContactLink 
                   icon={FaEnvelope}
-                  text="kurapatisaisriram@gmail.com"
-                  href="mailto:kurapatisaisriram@gmail.com"
+                  text="saisriram1729@gmail.com"
+                  href="mailto:saisriram1729@gmail.com"
                 />
                 <ContactLink 
                   icon={FaPhone}
