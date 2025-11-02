@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Saisriram<span className="text-teal-500">.dev</span></h3>
             <p className="text-gray-400 mb-4">
-              A frontend developer focused on creating beautiful and functional user interfaces with attention to detail.
+              A software engineer focused on creating beautiful and functional user interfaces with attention to detail.
             </p>
             <div className="flex space-x-4">
               <a 
